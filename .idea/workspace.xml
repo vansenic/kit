@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69a0b25e-4641-4391-9f80-dbb7994556a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/exception/exception_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/viper.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/viper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/exception/interface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception/zap.go" beforeDir="false" afterPath="$PROJECT_DIR$/exception/zap.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/interface.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

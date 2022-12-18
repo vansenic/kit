@@ -31,6 +31,7 @@ type OptionConfig struct {
 type InterfaceConfig interface {
 	Get(key string) interface{}
 	GetString(key string) string
+	GetBool(key string) bool
 	GetInt(key string) int
 	GetInt64(key string) int64
 	GetDuration(key string) time.Duration
