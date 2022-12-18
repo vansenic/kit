@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69a0b25e-4641-4391-9f80-dbb7994556a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/default.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/viper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/exception.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception/zap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rank/default.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/config/config_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/config/default_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/validate/validator_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/encode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/pertinence.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/strings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validate/interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validate/validator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/exception/exception_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/viper.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/viper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/exception/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/zap.go" beforeDir="false" afterPath="$PROJECT_DIR$/exception/zap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,17 +56,17 @@
     "last_opened_file_path": "/Users/vansen/Documents/GitBuss/kit"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Test.TestViperBadPath in github.com/vansenic/kit/test/config">
-    <configuration name="TestViper in github.com/vansenic/kit/test/config" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestZapGood in github.com/vansenic/kit/test/exception">
+    <configuration name="TestExceptionZap in github.com/vansenic/kit/test/exception" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="kit" />
-      <working_directory value="$PROJECT_DIR$/test/config" />
+      <working_directory value="$PROJECT_DIR$/test/exception" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/vansenic/kit/test/config" />
+      <package value="github.com/vansenic/kit/test/exception" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestViper\E$" />
+      <pattern value="^\QTestExceptionZap\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestViperBadPath in github.com/vansenic/kit/test/config" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -93,48 +81,48 @@
       <pattern value="^\QTestViperBadPath\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestViperBadType in github.com/vansenic/kit/test/config" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestZapBadValidate in github.com/vansenic/kit/test/exception" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="kit" />
-      <working_directory value="$PROJECT_DIR$/test/config" />
+      <working_directory value="$PROJECT_DIR$/test/exception" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/vansenic/kit/test/config" />
+      <package value="github.com/vansenic/kit/test/exception" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestViperBadType\E$" />
+      <pattern value="^\QTestZapBadValidate\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestViperGood in github.com/vansenic/kit/test/config" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestZapGood in github.com/vansenic/kit/test/exception" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="kit" />
-      <working_directory value="$PROJECT_DIR$/test/config" />
+      <working_directory value="$PROJECT_DIR$/test/exception" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/vansenic/kit/test/config" />
+      <package value="github.com/vansenic/kit/test/exception" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestViperGood\E$" />
+      <pattern value="^\QTestZapGood\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="config_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="exception_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="kit" />
-      <working_directory value="$PROJECT_DIR$/test/config" />
+      <working_directory value="$PROJECT_DIR$/test/exception" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="github.com/vansenic/kit" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/config/config_test.go" />
+      <filePath value="$PROJECT_DIR$/test/exception/exception_test.go" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestZapGood in github.com/vansenic/kit/test/exception" />
+        <item itemvalue="Go Test.TestZapBadValidate in github.com/vansenic/kit/test/exception" />
+        <item itemvalue="Go Test.exception_test.go" />
+        <item itemvalue="Go Test.TestExceptionZap in github.com/vansenic/kit/test/exception" />
         <item itemvalue="Go Test.TestViperBadPath in github.com/vansenic/kit/test/config" />
-        <item itemvalue="Go Test.config_test.go" />
-        <item itemvalue="Go Test.TestViperGood in github.com/vansenic/kit/test/config" />
-        <item itemvalue="Go Test.TestViperBadType in github.com/vansenic/kit/test/config" />
-        <item itemvalue="Go Test.TestViper in github.com/vansenic/kit/test/config" />
       </list>
     </recent_temporary>
   </component>
@@ -155,5 +143,16 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/exception/exception_test.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

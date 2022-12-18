@@ -23,6 +23,10 @@ func (c *Viper) Get(key string) interface{} {
 	return c.core.Get(key)
 }
 
+func (c *Viper) GetBool(key string) bool {
+	return c.core.GetBool(key)
+}
+
 func (c *Viper) GetString(key string) string {
 	return c.core.GetString(key)
 }

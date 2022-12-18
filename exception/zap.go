@@ -15,7 +15,7 @@ type LoggerZap struct {
 	Label string `json:"label"`
 }
 
-func NewLoggerZap(ctx context.Context, option OptionLogger) (Logger, error) {
+func NewLoggerZap(ctx context.Context, option Option) (Logger, error) {
 	enc := zapcore.EncoderConfig{
 		TimeKey:        "time",
 		LevelKey:       "level",

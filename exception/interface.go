@@ -25,7 +25,7 @@ type Logger interface {
 	Shutdown(ctx context.Context)
 }
 
-type OptionLogger struct {
+type Option struct {
 	Env   string `json:"env" label:"当前环境" validate:"required"`
 	App   string `json:"app" label:"应用名称" validate:"required"`
 	Label string `json:"label" label:"标记"`
@@ -43,7 +43,7 @@ type Message struct {
 	Line      string    `json:"line" label:"位置丨行"`
 }
 
-func InitLogger(ctx context.Context, sup SupLogger, option OptionLogger) error {
+func InitLogger(ctx context.Context, sup SupLogger, option Option) error {
 	var err error
 	var temp = Log
 	// validate
@@ -62,7 +62,7 @@ func InitLogger(ctx context.Context, sup SupLogger, option OptionLogger) error {
 	return err
 }
 
-func FactoryLogger(ctx context.Context, sup SupLogger, option OptionLogger) (Logger, error) {
+func FactoryLogger(ctx context.Context, sup SupLogger, option Option) (Logger, error) {
 	switch sup {
 	case ZAP:
 		return NewLoggerZap(ctx, option)
